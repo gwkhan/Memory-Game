@@ -23,7 +23,7 @@ while True:
     os.system("cls" if os.name == "nt" else "clear")
 
     user = input("Enter values in exact sequence (comma separated): ")
-    if user == "exit":
+    if user.lower() == "exit":
     	print(f"Wins: {wins} | Losses: {lose}\n")
     	print(f"your level was: {level}")
     	break
